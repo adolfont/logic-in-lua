@@ -188,10 +188,10 @@ testRule(fncDist, testFncDistTestCases )
 print("-- dist rule\n")
 
 
--- 5.1 Indentifying  (A&(B&C)) with (A&B&C)
--- 5.2 Indentifying   ((A&B)&C) with (A&B&C)
--- 5.3 Indentifying   (A|(B|C)) with (A|B|C)
--- 5.4 Indentifying   ((A|B)|C) with (A|B|C)
+-- 5.1 Identifying  (A&(B&C)) with (A&B&C)
+-- 5.2 Identifying   ((A&B)&C) with (A&B&C)
+-- 5.3 Identifying   (A|(B|C)) with (A|B|C)
+-- 5.4 Identifying   ((A|B)|C) with (A|B|C)
 
 testFncAssTestCases =
 { 
