@@ -188,10 +188,10 @@ testRule(fncDist, testFncDistTestCases )
 print("-- dist rule\n")
 
 
--- 5.1 Associação : de (A&(B&C)) to (A&B&C)
--- 5.2 Associação : de ((A&B)&C) to (A&B&C)
--- 5.3 Associação : de (A|(B|C)) to (A|B|C)
--- 5.4 Associação : de ((A|B)|C) to (A|B|C)
+-- 5.1 Indentifying  (A&(B&C)) with (A&B&C)
+-- 5.2 Indentifying   ((A&B)&C) with (A&B&C)
+-- 5.3 Indentifying   (A|(B|C)) with (A|B|C)
+-- 5.4 Indentifying   ((A|B)|C) with (A|B|C)
 
 testFncAssTestCases =
 { 
